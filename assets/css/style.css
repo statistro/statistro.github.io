@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato';
+    background: white;
+}
+
+.jumbotron {
+    height: 80vh;
+    background: url('../images/stat-on-a-laptop.jpg');
+    background-color: #666;
+    background-blend-mode:multiply;
+    background-size: cover;
+}
+
+.display-2 {
+    letter-spacing: 2rem;
+}
+
+.section-heading {
+    color: #22519c;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#services .card-deck {
+    width:90%;
+    margin:auto;
+}
+
+
+#services .card {
+    transition: ease-out;
+    transition-duration: 0.5s;
+}
+
+#services .card:hover {
+    transform: scale(1.1);
+}
+
+.service-logo {
+    height: 100px;
+}
+
+#why-us ul {
+    list-style: square outside url('../images/list-icon-resize.png');
+    
+}
+
+#why-us ul > li > p {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    top: -10px;
+}
+
+
+#contact .fa {
+    color: #22519c;
+    margin-right: 2rem;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color:#666;
+    color:white;
+}
+
+.back-to-top:hover {
+    background-color:#22519c;
+    color:white;
+}
+
+
+footer .fa-2x {
+    margin-top: 1em;
+    margin-left:0.5em;
+    margin-right:0.5em;
+}
+
+
+@media screen and (max-width: 512px) {
+    .jumbotron {
+        height: 100vh;
+    }
+}
